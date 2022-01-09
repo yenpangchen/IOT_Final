@@ -1,4 +1,4 @@
-# IOT_Final
+# IOT_SoapDispenser
 
 ## Introduction
 This is an **Automatic Soap Dispenser**. The automatic soap dispenser is aimed to spread soap automatically without pressing the bottle. This is archived by preventing the user from gettig contact with the handwash bottle while washing hands. As it has been proven through research, the Corona virus spreads through coming into contact with infected surfaces. Meanwhile, we should encourage people to wash hands frequently.
@@ -21,9 +21,12 @@ It's easy to use and need a few steps. The steps are as follows:
 ### Software
 - Python 3.7.3
 - Open-Vino
+- OpenCV
 - Python Telegram Bot
 - Pigpiod
 - MediaPipe
+- gtts
+- mpg321
 
 
 ## Circuit Diagram
@@ -49,6 +52,9 @@ https://www.youtube.com/watch?v=xHDT4CwjUQE&ab_channel=ExplainingComputers
 
 Note that GPIO ZERO has already installed by default in the Raspberry Pi OS.
 
+Circuit Diagram:
+![](https://i.imgur.com/oyFwUKy.png)
+
 Install `pigpio`
 If you're working with the rpi3's gpio, the `pigpio` library can be very handy.
 ```
@@ -60,18 +66,39 @@ sudo pigpiod
 ```
 Then run your code to control servo motor.
 
-## Before Getting Start
-The first thing to do is to build the environment on your Raspberry Pi. Go to Terminal and enter:
+## MediaPipe
+### Introduction
+In this project, I use mediapipe to achieve hand recognition and finger identification. So let us install mediapipe for the gesture control.
 
+### Install MediaPipe
+This has specific packages that work with Raspberry Pi 4 and Raspberry Pi 3, you can install both to your system.
+These commands are going to provide us with our MediaPipe Package. Go to Terminal and enter:
 
 ```
-sudo apt-get install libzbar0
-pip install pyzbar
-pip install RPi.GPIO
-pip install opencv-python
+sudo pip3 install mediapipe-rpi3
+sudo pip3 install mediapipe-rpi4
+sudo pip3 install gtts
+sudo apt install mpg321
 ```
-To get more infomation about opencv-python, you can go to
-https://docs.opencv.org/3.4.1/d2/de6/tutorial_py_setup_in_ubuntu.html
+
+MediaPipe is able to identify, locate and provide a unique number for each joint on both your hands.
+![](https://i.imgur.com/Yy2hJDa.png)
+
+To get more infomation about mediapipe, you can go to
+
+https://mediapipe.dev/
+
+### Hand Recognition and Gesture Control
+press the link and download the code.
+
+
+https://core-electronics.com.au/media/kbase/527/Code-For-Hand-Identification-Media-Pipe-new.zip
+
+After download and unzip the file, please make sure when running the main script that | module.py | is in the same directory.
+
+This is the result of running the script. After you put your hand in front of the picamera, mediapipe will detect how many fingers are up and how many fingers are down.
+
+![](https://i.imgur.com/zMwPQku.png)
 
 In order to create your telegram bot, you need to build the environment on your computer. Go to Terminal and enter:
 ```
