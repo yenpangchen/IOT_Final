@@ -149,6 +149,13 @@ updater = Updater("YOUR TOKEN HERE", use_context=True)
 ```
 python3 telegram_bot.py
 ```
+## 有待改進的地方
+1.不能裝太多，綁在伺服馬達上的塑膠板會脫落
+
+2.瓶子會漏水
+
+但我真的沒日沒夜地在做了，拜託老師手下留情，我真的很努力在做，我把所有時間都花在這上面了。
+
 
 ## References
 a.	MediaPipe
