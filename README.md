@@ -154,8 +154,6 @@ python3 telegram_bot.py
 
 2.瓶子會漏水
 
-但我真的沒日沒夜地在做了，拜託老師手下留情，我真的很努力在做，我把所有時間都花在這上面了。
-
 
 ## References
 a.	MediaPipe
