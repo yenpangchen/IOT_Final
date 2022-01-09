@@ -1,7 +1,6 @@
 # IOT_SoapDispenser
 
 ## Auto Soap Dispenser
-![](https://i.imgur.com/Hgu1tza.png)
 
 ## Introduction
 This is an **Automatic Soap Dispenser**. The automatic soap dispenser is aimed to spread soap automatically without pressing the bottle. This is archived by preventing the user from gettig contact with the handwash bottle while washing hands. As it has been proven through research, the Corona virus spreads through coming into contact with infected surfaces. Meanwhile, we should encourage people to wash hands frequently.
@@ -33,7 +32,7 @@ It's easy to use and need a few steps. The steps are as follows:
 
 
 ## Circuit Diagram
-![](https://i.imgur.com/QBvCgU7.png)
+![](https://i.imgur.com/Hgu1tza.png)
 
 Remember!! Please plug the PiCamera `BEFORE` you turn on your Raspberry Pi!!
 
