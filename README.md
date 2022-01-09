@@ -1,5 +1,7 @@
 # IOT_SoapDispenser
 
+## Auto Soap Dispenser
+
 ## Introduction
 This is an **Automatic Soap Dispenser**. The automatic soap dispenser is aimed to spread soap automatically without pressing the bottle. This is archived by preventing the user from gettig contact with the handwash bottle while washing hands. As it has been proven through research, the Corona virus spreads through coming into contact with infected surfaces. Meanwhile, we should encourage people to wash hands frequently.
 
@@ -124,12 +126,12 @@ In order to create your telegram bot, go to Terminal and enter:
 ```
 pip3 install python-telegram-bot --upgrade
 ```
-1. Download Telegram on your computer,then sign up for Telegram
+1. Download Telegram on your computer or on your mobile phone, then sign up for Telegram
 https://telegram.org/apps
 ![](https://d1dwq032kyr03c.cloudfront.net/upload/images/20200926/20130283oUk4njEXco.png)
 2. Use [@BotFather](https://t.me/BotFather) to create new bot accounts and manage your existing bots
 ![](https://miro.medium.com/max/698/1*oelrrJ132Ta6sp91Xo-xEQ.png)
-4. Click these links to learn how to set your telegram bot
+3. Click these links to learn how to set your telegram bot
 - https://ithelp.ithome.com.tw/articles/10245264
 - https://hackmd.io/@truckski/HkgaMUc24?type=view#Python-Telegram-Bot-%E6%95%99%E5%AD%B8-by-%E9%99%B3%E9%81%94%E4%BB%81
 
@@ -164,28 +166,37 @@ python iotbartender.py
 ```
 
 ## References
-a.	iot Bartender
-- Smart Bartender
-https://www.hackster.io/hackershack/smart-bartender-5c430e
-- Pitender
-https://hackmd.io/@nI3k8IIMTUuNhfYnYiVKlQ/rklX1RllU
-- 原住民調酒
-http://winelist.niusnews.com/post/3k2kt84
+a.	MediaPipe
+
+https://core-electronics.com.au/tutorials/hand-identification-raspberry-pi.html#Down
+
+https://www.youtube.com/watch?v=a7B5EZVHHkw&ab_channel=CoreElectronics
+
+https://www.youtube.com/watch?v=EgjwKM3KzGU&ab_channel=NicholasRenotte
 
 b.	telegram bot
 
-- telegram bot api
-https://core.telegram.org/bots/api
-- python-telegram-bot
-    
-    https://github.com/python-telegram-bot/python-telegram-bot/blob/master/examples/README.md
-- python QR Code generator
-https://pypi.org/project/qrcode/
-- upload image via PyImgur
-    - https://pyimgur.readthedocs.io/en/latest/
-    - https://ithelp.ithome.com.tw/articles/10241006
+https://github.com/chung-coder/Iot-bartender
 
-c.	Age Classification
-- microsoft azure face api
+https://www.youtube.com/watch?v=rRJ6H5gxaNA&ab_channel=MSDGurukul
 
-    https://azure.microsoft.com/zh-tw/services/cognitive-services/face/#features
+https://ithelp.ithome.com.tw/articles/10245264
+
+https://hackmd.io/@truckski/HkgaMUc24?type=view#Python-Telegram-Bot-%E6%95%99%E5%AD%B8-by-%E9%99%B3%E9%81%94%E4%BB%81
+
+c.	Automatic Soap Dispenser 
+
+https://www.hackster.io/FANUEL_CONRAD/automatic-soap-dispenser-75abd6
+
+https://www.hackster.io/aakash11/automatic-hand-sanitizer-using-arduino-2924ad
+
+https://www.hackster.io/iasonas-christoulakis/hand-sanitizer-bfbb5a
+
+d.	Servo Motors
+
+https://www.youtube.com/watch?v=_fdwE4EznYo&t=682s&ab_channel=GaryExplains
+
+https://www.youtube.com/watch?v=xHDT4CwjUQE&ab_channel=ExplainingComputers
+
+
+
