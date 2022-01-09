@@ -146,24 +146,6 @@ updater = Updater("YOUR TOKEN HERE", use_context=True)
 ```
 python3 telegram_bot.py
 ```
-## Build up your Iot Bartender
-1. Make sure that all electronic component can work normally
-![](https://i.imgur.com/zCsALGT.png)
-
-
-3. Set up your circuit diagram first, and make sure that all electronic component has been installed.
-![](https://i.imgur.com/rHljPYQ.jpg)
-
-
-3. Using `camera.py` to scan and decode QR codes with OpenCV
-![](https://i.imgur.com/yG46nxj.png)
-
-    To get more infomation, you can go to [An OpenCV barcode and QR code scanner with ZBar](https://www.pyimagesearch.com/2018/05/21/an-opencv-barcode-and-qr-code-scanner-with-zbar/)
-
-4. Run the script
-```
-python iotbartender.py
-```
 
 ## References
 a.	MediaPipe
