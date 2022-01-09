@@ -10,7 +10,7 @@ It's easy to use and need a few steps. The steps are as follows:
 2.  Show your hand. If the device recognize that your five fingers are up, it will pour the soap on your hand.
 
 ## Things Used In This Project
-### Hardward
+### Hardware
 - Raspberry Pi 4 *1
 - PiCamera *1
 - Jumper wires
@@ -37,6 +37,28 @@ Just plug them in your raspberry pi.
 
 ## How to Control Servo Motor
 
+This link provides information about GPIO pins:
+
+https://pinout.xyz/pinout/pin11_gpio17
+
+These two videos provide information about how to control servo motors:
+
+https://www.youtube.com/watch?v=_fdwE4EznYo&t=682s&ab_channel=GaryExplains  
+
+https://www.youtube.com/watch?v=xHDT4CwjUQE&ab_channel=ExplainingComputers
+
+Note that GPIO ZERO has already installed by default in the Raspberry Pi OS.
+
+Install `pigpio`
+If you're working with the rpi3's gpio, the `pigpio` library can be very handy.
+```
+sudo apt-get install pigpio 
+```
+Start the `pigpio`
+```
+sudo pigpiod 
+```
+Then run your code to control servo motor.
 
 ## Before Getting Start
 The first thing to do is to build the environment on your Raspberry Pi. Go to Terminal and enter:
